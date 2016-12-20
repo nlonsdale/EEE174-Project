@@ -1,0 +1,7 @@
+After enabling and remoiting into Raspberry Pi the following commands are used to setup a VNC server to view the feed from the Pi's attached camera.  The Pi is attached to the servo motor that is being controlled by the Parallax Propeller Kit
+
+
+sudo raspi-config
+sudo apt-get install xrdp
+sudo apt-get install tightvncserver
+vncserver:1
